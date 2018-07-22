@@ -41,7 +41,6 @@ const reducer = (state = defaultState, action) => {
     default:
       return state;
   }
-  return state;
 };
 
 // Create store
