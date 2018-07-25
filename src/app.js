@@ -21,6 +21,6 @@ store.subscribe(() => {
 
 store.dispatch(addExpense({ description: 'Water bill', amount: 24 }));
 store.dispatch(addExpense({ description: 'Gas bill', amount: 300 }));
-store.dispatch(setTextFilter('ll'));
+store.dispatch(setTextFilter('bill'));
 
 ReactDOM.render(AppRouter, document.querySelector('#app'));

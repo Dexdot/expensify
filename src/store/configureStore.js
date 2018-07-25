@@ -11,7 +11,7 @@ export default () => {
       expenses: expensesReducer,
       filters: filtersReducer
     }),
-    applyMiddleware()
+    applyMiddleware(logger)
   );
 
   return store;
