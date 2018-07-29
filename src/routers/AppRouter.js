@@ -9,7 +9,7 @@ import NotFoundPage from '../components/NotFoundPage';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-const AppRouter = (
+export default () => (
   <Router>
     <div>
       <Header />
@@ -23,5 +23,3 @@ const AppRouter = (
     </div>
   </Router>
 );
-
-export default AppRouter;

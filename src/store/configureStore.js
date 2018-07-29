@@ -10,8 +10,7 @@ export default () => {
     combineReducers({
       expenses: expensesReducer,
       filters: filtersReducer
-    }),
-    applyMiddleware(logger)
+    })
   );
 
   return store;
