@@ -5,8 +5,12 @@
   "author": "Dexdot",
   "license": "MIT",
   "scripts": {
+    "test": "jest",
     "build": "webpack",
     "dev": "webpack-dev-server --port 3000 --hot"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "dependencies": {
     "babel-cli": "6.24.1",
@@ -16,6 +20,7 @@
     "babel-preset-env": "1.5.2",
     "babel-preset-react": "6.24.1",
     "css-loader": "^0.28.11",
+    "jest": "^23.4.2",
     "moment": "^2.22.2",
     "node-sass": "^4.9.0",
     "normalize.css": "^8.0.0",
